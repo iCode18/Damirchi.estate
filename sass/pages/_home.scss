@@ -1,0 +1,29 @@
+.landing {
+  width: 100%;
+  padding-top: 2rem;
+  .cards {
+    background-color: $light;
+    width: 95%;
+    .card {
+      font-size: 2rem;
+      width: 100%;
+      text-align: center;
+      .slider {
+        max-width: 100%;
+      }
+      .content {
+        h3 {
+          padding: 2rem;
+          width: 100%;
+        }
+        p {
+          width: 90%;
+          padding: 3rem;
+          padding-top: 0;
+          width: 100%;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
