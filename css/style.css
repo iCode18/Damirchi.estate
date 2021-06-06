@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+body {
+  background-color: #082346; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000000; }
+
+.btn-gold {
+  background: transparent;
+  color: #b29935;
+  border: 0.2rem solid #b29935;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  margin-bottom: 2rem; }
+  .btn-gold:hover {
+    transform: scale(1.04); }
+
+.header {
+  background: #04172f;
+  height: 10vh;
+  display: flex;
+  border-bottom: 0.3rem solid #b29935; }
+  .header .logo {
+    width: 10rem;
+    padding: 0.5rem;
+    margin-left: 1.5rem; }
+    .header .logo img {
+      height: 100%; }
+  .header .title {
+    color: #ffffff;
+    padding: 1.5rem;
+    font-size: 2rem; }
+
+.landing {
+  width: 100%;
+  padding-top: 2rem; }
+  .landing .cards {
+    background-color: #ffffff;
+    width: 95%; }
+    .landing .cards .card {
+      font-size: 2rem;
+      width: 100%;
+      text-align: center; }
+      .landing .cards .card .slider {
+        max-width: 100%; }
+      .landing .cards .card .content h3 {
+        padding: 2rem;
+        width: 100%; }
+      .landing .cards .card .content p {
+        width: 90%;
+        padding: 3rem;
+        padding-top: 0;
+        width: 100%;
+        font-size: 1.8rem; }
