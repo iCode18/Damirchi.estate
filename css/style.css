@@ -60,14 +60,31 @@ body {
   width: 100%;
   padding-top: 2rem; }
   .landing .cards {
-    background-color: #ffffff;
-    width: 95%; }
+    width: 95%;
+    display: flex;
+    margin: 1rem; }
     .landing .cards .card {
+      background-color: #ffffff;
       font-size: 2rem;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      margin: 0.5rem; }
       .landing .cards .card .slider {
         max-width: 100%; }
+      .landing .cards .card .content .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem; }
+        .landing .cards .card .content .buttons button {
+          background-color: #082346;
+          color: #ffffff;
+          width: 40%;
+          border-radius: 5rem;
+          padding: 1rem 0;
+          font-size: 1.6rem; }
+          .landing .cards .card .content .buttons button:hover {
+            transform: scale(1.04); }
       .landing .cards .card .content h3 {
         padding: 2rem;
         width: 100%; }
@@ -77,3 +94,7 @@ body {
         padding-top: 0;
         width: 100%;
         font-size: 1.8rem; }
+
+@media (max-width: 50rem) {
+  .cards {
+    flex-wrap: wrap; } }
