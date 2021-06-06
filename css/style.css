@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::after,
 *::before {
@@ -98,14 +99,36 @@ body {
           .landing .cards .card .content .buttons button:hover {
             transform: scale(1.04); }
       .landing .cards .card .content h3 {
-        padding: 2rem;
+        padding: 1rem;
         width: 100%; }
       .landing .cards .card .content p {
         width: 90%;
-        padding: 3rem;
+        padding: 2rem 3rem;
         padding-top: 0;
         width: 100%;
         font-size: 1.8rem; }
+      .landing .cards .card .content p.limited {
+        padding: 0 3rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
+      .landing .cards .card .content input {
+        opacity: 0;
+        position: absolute;
+        pointer-events: none; }
+      .landing .cards .card .content input:checked + p {
+        -webkit-line-clamp: unset; }
+        .landing .cards .card .content input:checked + p + label span {
+          display: none; }
+        .landing .cards .card .content input:checked + p + label:after {
+          content: 'بازگشت'; }
+      .landing .cards .card .content label {
+        border: 0.2rem solid #b29935; }
+
+.image-wrapper {
+  width: 100%;
+  height: auto; }
 
 @media (max-width: 50rem) {
   .cards {

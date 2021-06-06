@@ -34,19 +34,49 @@
           }
         }
         h3 {
-          padding: 2rem;
+          padding: 1rem;
           width: 100%;
         }
         p {
           width: 90%;
-          padding: 3rem;
+          padding: 2rem 3rem;
           padding-top: 0;
           width: 100%;
           font-size: 1.8rem;
         }
+        p.limited {
+          padding: 0 3rem;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+        input {
+          opacity: 0;
+          position: absolute;
+          pointer-events: none;
+        }
+        input:checked + p {
+          -webkit-line-clamp: unset;
+          & + label {
+            span {
+              display: none;
+            }
+            &:after {
+              content: 'بازگشت';
+            }
+          }
+        }
+        label {
+          border: 0.2rem solid $gold;
+        }
       }
     }
   }
+}
+.image-wrapper {
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 50rem) {
   .cards {
