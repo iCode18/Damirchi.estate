@@ -70,8 +70,7 @@ body {
       padding-left: 0.5rem; }
 
 .landing {
-  width: 100%;
-  padding-top: 2rem; }
+  width: 100%; }
   .landing .cards {
     width: 95%;
     display: flex;
@@ -110,4 +109,6 @@ body {
 
 @media (max-width: 50rem) {
   .cards {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+    .cards .card:last-child {
+      padding-bottom: 3rem; } }

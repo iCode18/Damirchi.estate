@@ -1,6 +1,6 @@
 .landing {
   width: 100%;
-  padding-top: 2rem;
+  // padding-top: 2rem;
   .cards {
     width: 95%;
     display: flex;
@@ -51,5 +51,8 @@
 @media (max-width: 50rem) {
   .cards {
     flex-wrap: wrap;
+    .card:last-child {
+      padding-bottom: 3rem;
+    }
   }
 }
