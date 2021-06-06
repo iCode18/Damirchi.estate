@@ -56,6 +56,19 @@ body {
     padding: 1.5rem;
     font-size: 2rem; }
 
+.footer {
+  background: #04172f;
+  border-top: 0.3rem solid #b29935;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer .footer-content {
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.4rem; }
+    .footer .footer-content a {
+      padding-left: 0.5rem; }
+
 .landing {
   width: 100%;
   padding-top: 2rem; }

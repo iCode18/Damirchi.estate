@@ -1,0 +1,16 @@
+.footer {
+  background: $primary-dark;
+  //   height: 8vh;
+  border-top: 0.3rem solid $gold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .footer-content {
+    color: $light;
+    padding: 1rem;
+    font-size: 1.4rem;
+    a {
+      padding-left: 0.5rem;
+    }
+  }
+}
