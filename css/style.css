@@ -107,7 +107,8 @@ body {
         padding-top: 0;
         width: 100%;
         font-size: 1.8rem; }
-      .landing .cards .card .content p.limited {
+      .landing .cards .card .content p.limited,
+      .landing .cards .card .content p.limited2 {
         padding: 0 3rem;
         display: -webkit-box;
         -webkit-line-clamp: 3;
@@ -125,6 +126,56 @@ body {
           content: 'بازگشت'; }
       .landing .cards .card .content label {
         border: 0.2rem solid #b29935; }
+  .landing .icons {
+    padding: 5rem;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #b29935;
+    font-size: 2rem; }
+    .landing .icons .log {
+      width: 100%;
+      text-align: center; }
+      .landing .icons .log img {
+        width: 8rem; }
+    .landing .icons span {
+      padding: 2rem;
+      border-bottom: 0.1rem solid #b29935; }
+    .landing .icons .icon-wrapper {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem; }
+      .landing .icons .icon-wrapper span {
+        text-align: center;
+        width: 100%;
+        color: #b29935;
+        font-size: 1.5rem; }
+    .landing .icons .icon {
+      width: 5rem;
+      height: 5rem;
+      border: 0.2rem solid #b29935;
+      background: transparent;
+      border-radius: 0.8rem; }
+      .landing .icons .icon i {
+        color: #b29935;
+        font-size: 4rem; }
+  .landing .contact-footer {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 3rem;
+    color: #04172f;
+    background-color: #b29935; }
+    .landing .contact-footer div {
+      width: 100%;
+      text-align: right; }
+      .landing .contact-footer div i {
+        font-size: 2rem; }
+      .landing .contact-footer div a {
+        color: #04172f;
+        font-size: 1.4rem; }
 
 .image-wrapper {
   width: 100%;

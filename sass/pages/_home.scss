@@ -44,7 +44,8 @@
           width: 100%;
           font-size: 1.8rem;
         }
-        p.limited {
+        p.limited,
+        p.limited2 {
           padding: 0 3rem;
           display: -webkit-box;
           -webkit-line-clamp: 3;
@@ -73,7 +74,71 @@
       }
     }
   }
+  .icons {
+    padding: 5rem;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: $gold;
+    font-size: 2rem;
+    .log {
+      width: 100%;
+      text-align: center;
+      img {
+        width: 8rem;
+      }
+    }
+    span {
+      padding: 2rem;
+      border-bottom: 0.1rem solid $gold;
+    }
+    .icon-wrapper {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      span {
+        text-align: center;
+        width: 100%;
+        color: $gold;
+        font-size: 1.5rem;
+      }
+    }
+    .icon {
+      width: 5rem;
+      height: 5rem;
+      border: 0.2rem solid $gold;
+      background: transparent;
+      border-radius: 0.8rem;
+      i {
+        color: $gold;
+        font-size: 4rem;
+      }
+    }
+  }
+  .contact-footer {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 3rem;
+    color: $primary-dark;
+    background-color: $gold;
+    div {
+      width: 100%;
+      text-align: right;
+      i {
+        // color: green;
+        font-size: 2rem;
+      }
+      a {
+        color: $primary-dark;
+        font-size: 1.4rem;
+      }
+    }
+  }
 }
+
 .image-wrapper {
   width: 100%;
   height: auto;
