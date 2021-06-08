@@ -91,11 +91,13 @@ body {
         padding: 0.5rem; }
         .landing .cards .card .content .buttons button {
           background-color: #082346;
-          color: #ffffff;
           width: 40%;
           border-radius: 5rem;
           padding: 1rem 0;
           font-size: 1.6rem; }
+          .landing .cards .card .content .buttons button a {
+            color: #ffffff;
+            text-decoration: none; }
           .landing .cards .card .content .buttons button:hover {
             transform: scale(1.04); }
       .landing .cards .card .content h3 {
