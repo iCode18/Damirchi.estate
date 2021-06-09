@@ -141,7 +141,11 @@
     }
   }
 }
-
+.about {
+  background-color: $primary;
+  color: $light;
+  border: 1px solid $gold;
+}
 .image-wrapper {
   width: 100%;
   height: auto;
